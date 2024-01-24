@@ -3,7 +3,7 @@ import { burger2 } from '../assets'
 
 const Subscribe = () => {
   return (
-    <div className="p-10 flex gap-10 my-40 items-center justify-between bg-black h-[370px] rounded-[50px]">
+    <div className="p-10 flex gap-10 my-40 items-center justify-between bg-black h-[370px] rounded-[50px] subscribe translate-y-16 opacity-0">
         <Image 
         src={burger2}
         alt='burger2'

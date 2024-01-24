@@ -4,11 +4,11 @@ import { addCart, chickenPie, enshilad, greenBeans, moreProducts, pizza2, salad,
 
 const Products = () => {
   return (
-    <>
+    <div className="products translate-y-16 opacity-0" id='menu'>
     <span className="block text-[#F48E28] text-center mt-20 mb-5">Product</span>
     <h2 className="text-3xl font-bold text-center">Most Popular Items</h2>
     <div className="grid grid-cols-3 gap-10 mt-20 mb-20 max-lg:grid-cols-2 max-sm:grid-cols-1">
-        <div style={{ boxShadow: "0px 2px 30px 0px rgba(0, 0, 0, 0.10)" }} className="rounded-[35px]">
+        <div style={{ boxShadow: "0px 2px 30px 0px rgba(0, 0, 0, 0.10)" }} className="rounded-[35px] products-box duration-300 opacity-0">
             <Image 
             src={sandwich}
             alt='sandwich'
@@ -32,7 +32,7 @@ const Products = () => {
                 <span>$15.00</span>
             </div>
         </div>
-        <div style={{ boxShadow: "0px 2px 30px 0px rgba(0, 0, 0, 0.10)" }} className="rounded-[35px]">
+        <div style={{ boxShadow: "0px 2px 30px 0px rgba(0, 0, 0, 0.10)" }} className="rounded-[35px] products-box duration-300 opacity-0 delay-300">
             <Image 
             src={enshilad}
             alt='enshilad'
@@ -56,7 +56,7 @@ const Products = () => {
                 <span>$25.50</span>
             </div>
         </div>
-        <div style={{ boxShadow: "0px 2px 30px 0px rgba(0, 0, 0, 0.10)" }} className="rounded-[35px]">
+        <div style={{ boxShadow: "0px 2px 30px 0px rgba(0, 0, 0, 0.10)" }} className="rounded-[35px] products-box duration-300 opacity-0 delay-[600ms]">
             <Image 
             src={greenBeans}
             alt='greenBeans'
@@ -80,7 +80,7 @@ const Products = () => {
                 <span>$12.00</span>
             </div>
         </div>
-        <div style={{ boxShadow: "0px 2px 30px 0px rgba(0, 0, 0, 0.10)" }} className="rounded-[35px]">
+        <div style={{ boxShadow: "0px 2px 30px 0px rgba(0, 0, 0, 0.10)" }} className="rounded-[35px] products-box duration-300 opacity-0 delay-[1200ms]">
             <Image 
             src={pizza2}
             alt='pizza2'
@@ -104,7 +104,7 @@ const Products = () => {
                 <span>$18.50</span>
             </div>
         </div>
-        <div style={{ boxShadow: "0px 2px 30px 0px rgba(0, 0, 0, 0.10)" }} className="rounded-[35px]">
+        <div style={{ boxShadow: "0px 2px 30px 0px rgba(0, 0, 0, 0.10)" }} className="rounded-[35px] products-box duration-300 opacity-0 delay-[1500ms]">
             <Image 
             src={chickenPie}
             alt='chickenPie'
@@ -128,7 +128,7 @@ const Products = () => {
                 <span>$25.00</span>
             </div>
         </div>
-        <div style={{ boxShadow: "0px 2px 30px 0px rgba(0, 0, 0, 0.10)" }} className="rounded-[35px]">
+        <div style={{ boxShadow: "0px 2px 30px 0px rgba(0, 0, 0, 0.10)" }} className="rounded-[35px] products-box duration-300 opacity-0 delay-[1800ms]">
             <Image 
             src={salad}
             alt='salad'
@@ -158,7 +158,7 @@ const Products = () => {
     alt='moreProducts'
     className='mx-auto'
     />
-    </>
+    </div>
   )
 }
 

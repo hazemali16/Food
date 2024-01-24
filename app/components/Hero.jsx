@@ -3,7 +3,7 @@ import { arrow, burger, cake, driver, junkFood, left, orderBtn, pizza, playButto
 
 const Hero = () => {
   return (
-    <div className="flex min-h-screen items-center max-2xl:flex-col max-2xl:gap-40 max-2xl:pt-40 mb-20">
+    <div className="flex min-h-screen items-center max-2xl:flex-col max-2xl:gap-40 max-2xl:pt-40 mb-20 translate-y-16 opacity-0 animate-opacity-top">
         <div className="basis-[50%] relative max-sm:text-center">
             <Image 
             src={arrow}

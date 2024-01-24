@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
         <div className="flex justify-between items-center mt-5">
         <p className=" leading-10">
-            Created By <span className='text-[#F48E28]'>Hazem Ali</span>
+            Created By <span className='text-[#F48E28] text-lg'>Hazem Ali</span>
         </p>
         <ul className='flex gap-5 items-center max-sm:gap-1'>
             <li>

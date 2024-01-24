@@ -3,12 +3,12 @@ import { blancPackage, chicken, img1, img2, labtop } from '../assets'
 
 const HowItWork = () => {
   return (
-    <>
+    <div className='how translate-y-16 opacity-0' id='shope'>
     <span className="block text-[#F48E28] text-center mt-20 mb-5">How to work</span>
     <h2 className="text-3xl font-bold text-center">Food Us An Important Part Of A Balanced Diet</h2>
 
     <div className="grid grid-cols-3 gap-10 mt-20 mb-20 max-lg:grid-cols-2 max-sm:grid-cols-1">
-    <div className="relative">
+    <div className="relative how-box opacity-0 duration-300">
     <Image 
                 src={img1}
                 alt='img1'
@@ -28,7 +28,7 @@ const HowItWork = () => {
             </p>
         </div>
     </div>
-    <div className="">
+    <div className="relative how-box opacity-0 duration-300 delay-300">
         <div className=" flex flex-col justify-center gap-5  p-10 rounded-[35px]">
 
             <h3 className="font-bold text-xl text-center">
@@ -43,7 +43,7 @@ const HowItWork = () => {
                 />
         </div>
     </div>
-    <div className="relative">
+    <div className="relative how-box opacity-0 duration-300 delay-[600ms]">
     <Image 
                 src={img2}
                 alt='img2'
@@ -65,7 +65,7 @@ const HowItWork = () => {
         </div>
     </div>
     </div>
-    </>
+    </div>
   )
 }
 

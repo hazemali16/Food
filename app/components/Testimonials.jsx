@@ -3,7 +3,7 @@ import { left2, lunch, person, right2 } from '../assets'
 
 const Testimonials = () => {
   return (
-    <>
+    <div className='testimonials translate-y-16 opacity-0'>
     <span className="block text-[#F48E28] text-center mt-20 mb-5">Testimonials</span>
     <h2 className="text-3xl font-bold text-center">Our Happy Client Says</h2>
     <div className="flex gap-10 my-20 max-2xl:flex-col-reverse items-center">
@@ -42,7 +42,7 @@ const Testimonials = () => {
         className="basis-1/2"
         />
     </div>
-    </>
+    </div>
   )
 }
 

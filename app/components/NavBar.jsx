@@ -3,16 +3,16 @@ import { bag, logo, search } from '../assets'
 
 const NavBar = () => {
   return (
-    <div className='pt-5 flex justify-between items-center max-sm:flex-col max-sm:gap-5 absolute sm:w-[80%] w-[95%] mx-auto'>
+    <div className='pt-5 flex justify-between items-center max-sm:flex-col max-sm:gap-5 absolute sm:w-[80%] w-[95%] mx-auto z-10'>
         <Image 
         src={logo}
         alt='logo'
         />
         <ul className='flex gap-10 font-semibold items-center'>
-            <li>Home</li>
-            <li>Menu</li>
-            <li>Service</li>
-            <li>Shope</li>
+            <li className='duration-300 hover:text-[#F48E28]'><a href="#">Home</a></li>
+            <li className='duration-300 hover:text-[#F48E28]'><a href="#menu">Menu</a></li>
+            <li className='duration-300 hover:text-[#F48E28]'><a href="#service">Service</a></li>
+            <li className='duration-300 hover:text-[#F48E28]'><a href="#shope">Shope</a></li>
         </ul>
         <div className="relative hidden lg:block">
             <input style={{ boxShadow: "0px 0px 17px 0px rgba(0, 0, 0, 0.15)" }} className='outline-none px-20 rounded-lg w-[400px] h-16' type="search" name="" id="" placeholder='Search' />
